@@ -13,7 +13,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.tvMessage) TextView tvMessage;
-//
     @OnClick(R.id.button2)
     public void doClickHello(){
         this.tvMessage.setText(R.string.helloMessage);
